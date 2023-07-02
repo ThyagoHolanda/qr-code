@@ -8,111 +8,29 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
+  <link rel="stylesheet" href="style.css">
 
   <title>Frontend Mentor | QR code component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: lightgray;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      font-family: 'Outfit', sans-serif;
-      text-align: center;
-    }
-
-    main.container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 95vw;
-      min-width: 375px;
-      height: 85vh;
-      background-color: hsl(218, 38%, 66%);
-      box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.200);
-      margin: auto;
-      padding: 10px;
-    }
-
-    @media only screen and (max-width:415px) {
-      main.container {
-        width: 100%;
-        height: 100%;
-      }
-    }
-
-    main.container .card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-      padding: 10px;
-      background-color: white;
-      width: 250px;
-      height: 385px;
-      border-radius: 10px;
-      box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.200);
-    }
-
-
-    main.container img {
-      width: 220px;
-      border-radius: 10px;
-
-    }
-
-    main.container div.card div.paragrafos {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      width: 90%;
-    }
-
-    main.container div.card div.paragrafos .p1 {
-      font-weight: 700;
-    }
-
-    main.container div.card div.paragrafos .p2 {
-      font-weight: 400;
-      font-size: 14px;
-    }
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+      
   </style>
 </head>
 
 <body>
   <main class="container">
-    <div class="card">
+    <section class="card">
 
       <img src="./images/image-qr-code.png" alt="QR code">
 
-      <div class="paragrafos">
-        <p class="p1">Improve your front-end skills by building projects</p>
+      <section class="paragrafos">
+        <h1 class="p1">Improve your front-end skills by building projects</h1>
 
-        <p class="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      </div>
+        <h2 class="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h2>
+      </section>
 
-    </div>
+    </section>
 
   </main>
   <!-- <div class="attribution">
