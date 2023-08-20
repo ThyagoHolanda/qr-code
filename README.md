@@ -4,7 +4,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -15,26 +14,15 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### Screenshot
 
 ![](./images/Captura%20de%20tela%202023-06-30%20212446.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ThyagoHolanda/qr-code)
-- Live Site URL: [Add live site URL here](https://thyagoholanda.github.io/qr-code/)
+- Solution URL: [https://github.com/ThyagoHolanda/qr-code](https://github.com/ThyagoHolanda/qr-code)
+- Live Site URL: [https://thyagoholanda.github.io/qr-code/](https://thyagoholanda.github.io/qr-code/)
 
 ## My process
 
@@ -44,44 +32,45 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - CSS custom properties
 - Flexbox
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This was my first time using Flexbox e Media queries.
 
-To see how you can add code snippets, see below:
+Below are some of the codes I want to highlight:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+    main.container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 95vw;
+      min-width: 375px;
+      height: 85vh;
+      background-color: hsl(218, 38%, 66%);
+      box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.200);
+      margin: auto;
+      padding: 10px;
+    }
+
+    @media only screen and (max-width:415px) {
+      main.container {
+        width: 100%;
+        height: 100%;
+      }
+    }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I will continue studying Flexbox Media queries. Some indications of content and feedback that I had regarding this solution, and that I will include in my list of studies, was using more relative units and learning about mobile first.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Developer Mozilla](https://developer.mozilla.org/pt-BR/) - I use it a lot to clear doubts or remember concepts.
+- [W3schools](https://www.w3schools.com) - I also highly recommend W3Schools.
 
 ## Author
 
 - Website - [Thyago Holanda Monteiro de Lima](https://thyagoholanda.github.io)
-- Frontend Mentor - [@ThyagoHolanda](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [ThyagoHolanda](https://www.frontendmentor.io/profile/ThyagoHolanda)
 - Linkedin - [Thyago Holanda Monteiro de Lima](https://www.linkedin.com/in/thyago-holanda-monteiro-de-lima/)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
